@@ -1,0 +1,15 @@
+div.input-box {
+  position: relative;
+}
+
+div.input-box input, div.input-box .placeholder-input {
+  position: absolute;
+  top: 50%;
+  font-size: 16px;
+  background-color: transparent;
+  height: 18px;
+  width: 100%;
+}
+div.input-box input:last-child {
+  font-weight: bold
+}

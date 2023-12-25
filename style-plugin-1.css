@@ -1,0 +1,27 @@
+div.input-box {
+  position: relative;
+}
+
+div.input-box input {
+  position: absolute;
+  top: 50%;
+  font-size: 16px;
+  background-color: transparent;
+  transform: translateY(-50%);
+  height: 18px;
+  width: 100%;
+}
+div.input-box .placeholder-span {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  font-size: 16px;
+  font-family: 'Arial';
+  background-color: transparent;
+  transform: translateY(-50%);
+  height: 18px;
+  width: 100%;
+}
+div.input-box input:last-child {
+  font-weight: bold
+}
